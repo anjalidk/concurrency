@@ -6,12 +6,12 @@ A multi-producer multi-consumer hash queue.
 lruc.c
 ------
 
-Multi producer consumer LRU Cache.
+Multi-producer multi-consumer LRU Cache.
 
 mem_allocator.c
 ---------------
 
-A hash table based memory allocator.
+A concurrent hash table based memory allocator.
 
 multi_buf.c
 -----------
@@ -22,4 +22,4 @@ Each producer can produce to it's own queue, while consumers can consume from an
 leap_year.c
 -----------
 
-2 threads, with each printing either leap or non-leap.
+2 concurrent threads, with each printing either leap or non-leap.
