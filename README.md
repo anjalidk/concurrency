@@ -6,7 +6,12 @@ A multi-producer multi-consumer hash queue.
 lruc.c
 ------
 
-Multi-producer multi-consumer LRU Cache.
+Multi-producer multi-consumer LRU Cache like behavior per hash table entry, just to demonstrate hash tables.
+
+lru_cache.c
+-----------
+
+Multi-producer multi-consumer LRU Cache using doubly linked list and hash table for node pointer retrieval.
 
 mem_allocator.c
 ---------------
